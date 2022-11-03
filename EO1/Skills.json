@@ -7,7 +7,7 @@
         "Location": { "x":0, "y": 0},
         "BoostAllowed": false,
         "LevelData": {
-            "HP Increase": ["110%", "111%", "112%", "113%", "119%", "120%", "121%", "122%", "123%", "130%"]
+            "HP Increase": ["10%", "11%", "12%", "13%", "19%", "20%", "21%", "22%", "23%", "30%"]
         }
     },
     "HPUpR": {
@@ -246,26 +246,26 @@
     },
     "DEFUpL": {
         "Name": "DEF Up",
-        "Description": "Reduces physical damage taken.",
+        "Description": "Decreases physical damage taken.",
         "Type": "Passive",
         "Downstream": {"ArmHeal": 1, "FleeL": 5},
         "MaxLevel": 10,
         "Location": { "x":0, "y": 4},
         "BoostAllowed": false,
         "LevelData": {
-            "Physical Damage Reduction": ["95%", "94%", "93%", "92%", "91%", "90%", "89%", "88%", "87%", "85%"]
+            "Physical Damage Decrease": ["95%", "94%", "93%", "92%", "91%", "90%", "89%", "88%", "87%", "85%"]
         }
     },
     "DEFUpP": {
         "Name": "DEF Up",
-        "Description": "Reduces physical damage taken.",
+        "Description": "Decreases physical damage taken.",
         "Type": "Passive",
         "Downstream": {"EnGarde": 7, "Fortify": 3, "Parry": 3, "Flee": 3, "Provoke": 1, "StalkerP": 5, "Aegis": 5},
         "MaxLevel": 10,
         "Location": { "x":3, "y": 1},
         "BoostAllowed": false,
         "LevelData": {
-            "Physical Damage Reduction": ["95%", "94%", "93%", "92%", "91%", "90%", "89%", "88%", "87%", "85%"]
+            "Physical Damage Decrease": ["95%", "94%", "93%", "92%", "91%", "90%", "89%", "88%", "87%", "85%"]
         }
     },
     "Axes": {
